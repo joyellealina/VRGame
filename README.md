@@ -28,4 +28,7 @@ Describe obstacles and complications here.
  ### Grade Requirements
  
  ### External Model Sources
-
+ ***This list is subject to change!***
+- RTS Camera: https://assetstore.unity.com/packages/tools/camera/rts-camera-43321
+- Rain Effects: https://assetstore.unity.com/packages/vfx/particles/environment/rain-maker-2d-and-3d-rain-particle-system-for-unity-34938
+- Low Poly Buildings: https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427
