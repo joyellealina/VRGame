@@ -32,3 +32,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+VR-Game/.vs/VR-Game/v15/Server/sqlite3/db.lock
