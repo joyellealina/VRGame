@@ -22,7 +22,7 @@ Describe obstacles and complications here.
   - Derek Fritz:
   
 ### Timeline and Tasks
-- [ ] Setup Unity environment
+- [x] Setup Unity environment
 - [ ] Plan out game idea and basic mechanics
   
  ### Grade Requirements
