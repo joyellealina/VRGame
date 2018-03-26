@@ -22,7 +22,8 @@ Describe obstacles and complications here.
   - Derek Fritz:
   
 ### Timeline and Tasks
-- [x] Setup Unity environment
+- [x] Setup Unity environment (Completed 3/20/2018)
+- [x] Submit Proposal (Proposal Accepted 3/21/2018)
 - [ ] Plan out game idea and basic mechanics
   
  ### Grade Requirements
