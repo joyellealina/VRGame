@@ -8,7 +8,7 @@ Video demonstration will go here.
 ## Project Report
 
 ### Project Planning
-The majority of our research and planning is located on our [Wiki](https://github.com/joyellealina/VRGame/wiki) page.
+The majority of our research and planning is located on our [Wiki](https://github.com/joyellealina/VRGame/wiki/VR-Evacuation-Game---Home) page.
 
 ### We learned...
 Describe what we learned from the project.
