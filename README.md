@@ -27,11 +27,13 @@ Describe obstacles and complications here.
 ### Timeline and Tasks
 - [x] Setup Unity environment (Completed 3/20/2018)
 - [x] Submit Proposal (Proposal Accepted 3/21/2018)
+- [x] Create Wiki to start planning and reasearch (Completed 3/26/2018)
 - [ ] Plan out game idea and basic mechanics
 - [ ] Setup basic terrain and environment
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
 - [ ] Simluate flooding scenario
 - [ ] Add characters; Start discussing AI Implementation
+- [ ] Add different tiers of Boat units
   
  ### Grade Requirements
  
