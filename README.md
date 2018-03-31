@@ -42,3 +42,4 @@ Describe obstacles and complications here.
 - RTS Camera: https://assetstore.unity.com/packages/tools/camera/rts-camera-43321
 - Rain Effects: https://assetstore.unity.com/packages/vfx/particles/environment/rain-maker-2d-and-3d-rain-particle-system-for-unity-34938
 - Low Poly Buildings: https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427
+- Old Rowboat: https://www.turbosquid.com/FullPreview/Index.cfm/ID/675083
