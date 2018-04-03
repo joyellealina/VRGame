@@ -25,7 +25,7 @@ Describe obstacles and complications here.
     * Creating Rain and Flood Effects
   - Derek Fritz:
     * Design of City and Terrain
-  
+***
 ### Timeline and Tasks
 - [x] Setup Unity environment (**Completed 3/20/2018**)
 - [x] Submit Proposal (**Proposal Accepted 3/21/2018**)
@@ -38,9 +38,7 @@ Describe obstacles and complications here.
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
 - [ ] Add characters; Start discussing AI Implementation
 - [ ] Add different tiers of Boat units
-  
- ### Grade Requirements
- 
+ ***
  ### External Model Sources
  ***This list is subject to change!***
 - RTS Camera: https://assetstore.unity.com/packages/tools/camera/rts-camera-43321
