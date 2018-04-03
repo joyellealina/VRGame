@@ -41,9 +41,9 @@ Describe obstacles and complications here.
  ***
  ### External Model Sources
  ***This list is subject to change!***
-- RTS Camera: https://assetstore.unity.com/packages/tools/camera/rts-camera-43321
-- Rain Effects: https://assetstore.unity.com/packages/vfx/particles/environment/rain-maker-2d-and-3d-rain-particle-system-for-unity-34938
-- Low Poly Water: https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563
-- Low Poly Buildings: https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427
-- Old Rowboat: https://www.turbosquid.com/FullPreview/Index.cfm/ID/675083
-- Streets: https://assetstore.unity.com/packages/3d/small-town-america-streets-free-59759
+- [RTS Camera](https://assetstore.unity.com/packages/tools/camera/rts-camera-43321)
+- [Rain Effects](https://assetstore.unity.com/packages/vfx/particles/environment/rain-maker-2d-and-3d-rain-particle-system-for-unity-34938)
+- [Low Poly Water](https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563)
+- [Low Poly Buildings](https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427)
+- [Old Rowboat](https://www.turbosquid.com/FullPreview/Index.cfm/ID/675083)
+- [Streets](https://assetstore.unity.com/packages/3d/small-town-america-streets-free-59759)
