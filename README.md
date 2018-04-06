@@ -10,11 +10,25 @@ Video demonstration will go here.
 ### Project Planning
 The majority of our research and planning is located on our [Wiki](https://github.com/joyellealina/VRGame/wiki/VR-Evacuation-Game---Home) page.
 
+### Tools Used
+- Unity 2017
+- Github Desktop
+- Visual Studio, VSCode, etc. (Any editor is fine)
+
 ### We learned...
-Describe what we learned from the project.
+- How to collaborate as a team on a larger project
+- How to use more advanced Unity features
+- Advanced C# scritping
 
 ### Biggest issues
-Describe obstacles and complications here.
+
+***Merge Conflicts***
+
+Upon completing work on seperate branches, we ran into several issues when trying to merge everything into the master branch. Various scene aspects such as models, scripts and settings were not present. We were able to successfully merge one development branch into master by accepting all of the development branch changes since the master was a bare scene.
+
+***Use of Free Models and Aspects***
+
+Due to time constraints and lack of experience, we were unable to produce any of our own 3D models for this project. This led to using free Unity aspects and models found online. The problem with this is limited functionality. We did our best to modify assets and models to best suit the use cases for this project. For the list of assets and models used, please navigate to our ***External Model Resources*** section.
   
 ### Contributors
   - [Joyelle Woodson](https://github.com/joyellealina)
@@ -44,7 +58,6 @@ Describe obstacles and complications here.
  ***
  ### External Model Sources
  ***This list is subject to change!***
-- [RTS Camera](https://assetstore.unity.com/packages/tools/camera/rts-camera-43321)
 - [Rain Effects](https://assetstore.unity.com/packages/vfx/particles/environment/rain-maker-2d-and-3d-rain-particle-system-for-unity-34938)
 - [Low Poly Water](https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563)
 - [Low Poly Buildings](https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427)
