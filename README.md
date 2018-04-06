@@ -35,9 +35,9 @@ Describe obstacles and complications here.
 - [x] Plan out game idea and basic mechanics (**Completed 3/26/2018**)
 - [x] Setup city environment (**Completed 4/1/2018**)
 - [x] Created button to start raining (**Completed 4/3/2018**)
-- [ ] Simluate flooding scenario
 - [x] Create button to spawn boats (**Completed 4/5/2018**)
 - [x] Integrate VR functionality and controller support (**Completed on 4/6/2018**)
+- [ ] Simluate flooding scenario
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
 - [ ] Add characters; Start discussing AI Implementation
 - [ ] Add different tiers of Boat units
