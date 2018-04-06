@@ -34,7 +34,7 @@ Describe obstacles and complications here.
 - [x] Setup city environment (**Completed 4/1/2018**)
 - [x] Created button to start raining (**Completed 4/3/2018**)
 - [ ] Simluate flooding scenario
-- [ ] Create button to spawn boats
+- [x] Create button to spawn boats (**Completed 4/5/2018**)
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
 - [ ] Add characters; Start discussing AI Implementation
 - [ ] Add different tiers of Boat units
