@@ -25,6 +25,8 @@ Describe obstacles and complications here.
     * Creating Rain and Flood Effects
   - Derek Fritz:
     * Design of City and Terrain
+    * UI Groundwork
+    * VR / Touch Controller Functionality
 ***
 ### Timeline and Tasks
 - [x] Setup Unity environment (**Completed 3/20/2018**)
@@ -35,6 +37,7 @@ Describe obstacles and complications here.
 - [x] Created button to start raining (**Completed 4/3/2018**)
 - [ ] Simluate flooding scenario
 - [x] Create button to spawn boats (**Completed 4/5/2018**)
+- [x] Integrate VR functionality and controller support (**Completed on 4/6/2018**)
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
 - [ ] Add characters; Start discussing AI Implementation
 - [ ] Add different tiers of Boat units
