@@ -21,6 +21,7 @@ The majority of our research and planning is located on our [Wiki](https://githu
 - How to collaborate as a team on a larger project
 - How to use more advanced Unity features
 - Advanced C# scritping
+- How to integrate VR controls
 
 ### Biggest issues
 
@@ -53,7 +54,7 @@ Due to time constraints and lack of experience, we were unable to produce any of
 - [x] Created button to start raining (**Completed 4/3/2018**)
 - [x] Create button to spawn boats (**Completed 4/5/2018**)
 - [x] Integrate VR functionality and controller support (**Completed on 4/6/2018**)
-- [ ] Simluate basic flooding scenario (**Completed on 4/6/2018**)
+- [x] Simluate basic flooding scenario (**Completed on 4/6/2018**)
 - [ ] Add AI pathfinding to spawned boats
 - [ ] Add characters
 - [ ] Add AI pathfinding to character objects
