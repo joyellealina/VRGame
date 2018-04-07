@@ -46,10 +46,18 @@ Due to time constraints and lack of experience, we were unable to produce any of
     * VR / Touch Controller Functionality
 ***
 ### Timeline and Tasks
+***Week 1***
+
 - [x] Setup Unity environment (**Completed 3/20/2018**)
 - [x] Submit Proposal (**Proposal Accepted 3/21/2018**)
+
+***Week 2***
+
 - [x] Create Wiki to start planning and reasearch (**Completed 3/26/2018**)
 - [x] Plan out game idea and basic mechanics (**Completed 3/26/2018**)
+
+***Week 3***
+
 - [x] Setup city environment (**Completed 4/1/2018**)
 - [x] Created button to start raining (**Completed 4/3/2018**)
 - [x] Create button to spawn boats (**Completed 4/5/2018**)
