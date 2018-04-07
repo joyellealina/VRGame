@@ -13,7 +13,7 @@ public class spawn : MonoBehaviour {
 
     NavMeshAgent _navMeshAgent;
 
-    public void Create() {
+    public void create() {
 		GameObject newObject = Instantiate (Prefab, SpawnPoint.position, SpawnPoint.rotation) as GameObject;
 		newObject.transform.localScale = new Vector3 (.2F, .2F, .2F);
 	}
