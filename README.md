@@ -10,10 +10,12 @@ Video demonstration will go here.
 ### Project Planning
 The majority of our research and planning is located on our [Wiki](https://github.com/joyellealina/VRGame/wiki/VR-Evacuation-Game---Home) page.
 
-### Tools Used
+### Tools/Devices Used
 - Unity 2017
 - Github Desktop
 - Visual Studio, VSCode, etc. (Any editor is fine)
+- Oculus Rift & Touch Controllers
+- Unity Oculus SDK
 
 ### We learned...
 - How to collaborate as a team on a larger project
