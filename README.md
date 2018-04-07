@@ -53,9 +53,11 @@ Due to time constraints and lack of experience, we were unable to produce any of
 - [x] Created button to start raining (**Completed 4/3/2018**)
 - [x] Create button to spawn boats (**Completed 4/5/2018**)
 - [x] Integrate VR functionality and controller support (**Completed on 4/6/2018**)
-- [ ] Simluate flooding scenario
+- [ ] Simluate basic flooding scenario (**Completed on 4/6/2018**)
+- [ ] Add AI pathfinding to spawned boats
+- [ ] Add characters
+- [ ] Add AI pathfinding to character objects
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
-- [ ] Add characters; Start discussing AI Implementation
 - [ ] Add different tiers of Boat units
  ***
  ### External Model Sources
