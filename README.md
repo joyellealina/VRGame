@@ -27,7 +27,7 @@ The majority of our research and planning is located on our [Wiki](https://githu
 
 ***Merge Conflicts***
 
-Upon completing work on seperate branches, we ran into several issues when trying to merge everything into the master branch. Various scene aspects such as models, scripts and settings were not present. We were able to successfully merge one development branch into master by accepting all of the development branch changes since the master was a bare scene.
+Upon completing work on seperate branches, we ran into several issues when trying to merge everything into the master branch. Various scene aspects such as models, scripts and settings were not present. We were able to successfully merge one development branch into master by accepting all of the development branch changes since the master was a bare scene. To avoid future issues, we had to carefully commit and push our work, making sure to not work on the same thing or wait until something was completely done before moving onto the next feature.
 
 ***Use of Free Models and Aspects***
 
@@ -40,6 +40,7 @@ Due to time constraints and lack of experience, we were unable to produce any of
 ### Work Distribution
   - Joyelle Woodson:
     * Creating Rain and Flood Effects
+    * Initial AI Implementation
   - Derek Fritz:
     * Design of City and Terrain
     * UI Groundwork
@@ -63,11 +64,12 @@ Due to time constraints and lack of experience, we were unable to produce any of
 - [x] Create button to spawn boats (**Completed 4/5/2018**)
 - [x] Integrate VR functionality and controller support (**Completed on 4/6/2018**)
 - [x] Simluate basic flooding scenario (**Completed on 4/6/2018**)
-- [ ] Add AI pathfinding to spawned boats
-- [ ] Add characters
+- [x] Add AI pathfinding to spawned boats (**Completed 4/7/2018**)
+- [x] Add different tiers of Boat units (**Completed 4/7/2018**)
+- [ ] Extend Boat AI to multiple points
+- [ ] Add basic characters
 - [ ] Add AI pathfinding to character objects
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
-- [ ] Add different tiers of Boat units
  ***
  ### External Model Sources
  ***This list is subject to change!***
