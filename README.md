@@ -20,7 +20,7 @@ The majority of our research and planning is located on our [Wiki](https://githu
 ### We learned...
 - How to collaborate as a team on a larger project
 - How to use more advanced Unity features
-- Advanced C# scritping
+- Advanced C# scripting
 - How to integrate VR controls
 
 ### Biggest issues
