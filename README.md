@@ -78,4 +78,6 @@ We'll put screenshots and explanations here!
 - [Low Poly Water](https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563)
 - [Low Poly Buildings](https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427)
 - [Old Rowboat](https://www.turbosquid.com/FullPreview/Index.cfm/ID/675083)
+- [Zodiac Project Boat](https://www.turbosquid.com/FullPreview/Index.cfm/ID/1142795)
+- [Free Boat 3D Model](https://www.turbosquid.com/FullPreview/Index.cfm/ID/222609)
 - [Streets](https://assetstore.unity.com/packages/3d/small-town-america-streets-free-59759)
