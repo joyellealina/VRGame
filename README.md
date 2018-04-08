@@ -46,6 +46,8 @@ Due to time constraints and lack of experience, we were unable to produce any of
     * UI Groundwork
     * VR / Touch Controller Functionality
 ***
+We'll put screenshots and explanations here!
+***
 ### Timeline and Tasks
 ***Week 1***
 
@@ -71,8 +73,7 @@ Due to time constraints and lack of experience, we were unable to produce any of
 - [ ] Add AI pathfinding to character objects
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
  ***
- ### External Model Sources
- ***This list is subject to change!***
+ ### External Model/Asset Sources
 - [Rain Effects](https://assetstore.unity.com/packages/vfx/particles/environment/rain-maker-2d-and-3d-rain-particle-system-for-unity-34938)
 - [Low Poly Water](https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563)
 - [Low Poly Buildings](https://assetstore.unity.com/packages/3d/environments/urban/lowpoly-modern-city-buildings-set-64427)
