@@ -68,6 +68,9 @@ We'll put screenshots and explanations here!
 - [x] Simluate basic flooding scenario (**Completed on 4/6/2018**)
 - [x] Add AI pathfinding to spawned boats (**Completed 4/7/2018**)
 - [x] Add different tiers of Boat units (**Completed 4/7/2018**)
+
+**Week 4***
+
 - [ ] Extend Boat AI to multiple points
 - [ ] Add Counter to Canvas
 - [ ] Add basic characters
