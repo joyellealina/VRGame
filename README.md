@@ -69,6 +69,7 @@ We'll put screenshots and explanations here!
 - [x] Add AI pathfinding to spawned boats (**Completed 4/7/2018**)
 - [x] Add different tiers of Boat units (**Completed 4/7/2018**)
 - [ ] Extend Boat AI to multiple points
+- [ ] Add Counter to Canvas
 - [ ] Add basic characters
 - [ ] Add AI pathfinding to character objects
 - [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
