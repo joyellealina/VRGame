@@ -14,9 +14,4 @@ public class ActivateFlooding : MonoBehaviour
         FloodWater.SetActive(true);
         Debug.Log("Rain is now on");
     }
-
-    private void Update()
-    {
-        // This will trigger the slow movement of the FloodWater in the scene
-    }
 }
