@@ -10,9 +10,11 @@ public class spawn : MonoBehaviour {
 	public float Scale;
 
     public void create() {
-		GameObject newObject = Instantiate (Prefab, SpawnPoint.position, SpawnPoint.rotation) as GameObject;
+		//GameObject newObject = Instantiate (Prefab, SpawnPoint.position, SpawnPoint.rotation) as GameObject;
+		GameObject newObject = Instantiate (Prefab, Parent.transform.position, Parent.transform.rotation) as GameObject;
 		newObject.transform.localScale = new Vector3 (Scale, Scale, Scale);
 		newObject.transform.parent = Parent.transform;
+		BoatMovement.score--;
 	}
 
 }

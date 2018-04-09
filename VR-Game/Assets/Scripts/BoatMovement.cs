@@ -13,6 +13,7 @@ public class BoatMovement : MonoBehaviour {
     private int currentCapacity = 0;
     private int size; // Size of list
     private int i = 0;
+	public static int score = 1;
 
     public void Start()
 	{
@@ -46,9 +47,10 @@ public class BoatMovement : MonoBehaviour {
         if (distance < 7 )
         {
             targets[i].SetActive(false);
-            // Destroy(targets[i]);
+            //Destroy(targets[i]);
             i++;
             currentCapacity++;
+			score++;
             
             // If there are still people to rescue and the boat has not reached max capacity
             if (i < size && currentCapacity != maxCapacity)

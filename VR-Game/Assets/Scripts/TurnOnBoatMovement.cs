@@ -8,7 +8,7 @@ public class TurnOnBoatMovement : MonoBehaviour {
 
     public void Seek()
     {
-        gameObject.GetComponent<BoatMovement>().enabled = true;
+        Boat.GetComponent<BoatMovement>().enabled = true;
     }
     
 }
