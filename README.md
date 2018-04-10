@@ -3,7 +3,7 @@
 We plan on creating a game where the user needs to evacuate a city/town in an severe weather scenario. In this sense, we are developing a project that includes resource-management aspects, while also incorporating evacuation scenarios.
  
 ## Video Demo
-Video demonstration will go here.
+[Link to our short video presentation](https://youtu.be/ebhagYu79kg)
 
 ## Project Report
 
@@ -57,7 +57,36 @@ Implementing the AI for the different tiers of boats was difficult and still doe
     * VR / Touch Controller Functionality
     * Initial Resource Functionality
 ***
-We'll put screenshots and explanations here!
+Here is a look at our player UI, which is anchored to the player's left touch controller. This allows them to look at and interact with the game menu dynamically. The "Begin Operation" button activates the rainfall and initiates the flooding. The three "Build" buttons allow the user to create rescue boat units in exchange for resources, which is represented by the gold bar at the bottom. Resources are obtained as the rescue units succesfully retrieve civilians.
+
+![](/Presentation/1.png)
+![](/Presentation/2.png)
+
+Below we see the player's base of operations, where rescue units are spawned from and return to after a succesful operation.
+
+![](/Presentation/3.png)
+
+The following images display the flooding in process, as water levels increase over time.
+
+![](/Presentation/4.png)
+![](/Presentation/5.png)
+![](/Presentation/6.png)
+
+Here we can see several civilians taking refuge on top of the town's buildings, represented by the noticeable red orbs. The rescue units will target these civilians in need of saving and continue seeking them out until the boat's capacity is filled or all civilians have been rescued.
+
+![](/Presentation/7.png)
+
+When the player has enough resources the build a boat, the selected unit will spawn in front of the base.
+
+![](/Presentation/8.png)
+
+These units will track down civilians.
+
+![](/Presentation/9.png)
+
+And carry on with their mission after retrieving them.
+
+![](/Presentation/10.png)
 ***
 ### Timeline and Tasks
 ***Week 1***
