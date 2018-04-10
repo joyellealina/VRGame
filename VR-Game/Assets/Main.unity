@@ -3512,7 +3512,7 @@ MonoBehaviour:
   SpawnPoint: {fileID: 2068996709}
   Prefab: {fileID: 100246, guid: c5c572066b2f8a14a9b388fdb321e38d, type: 3}
   Parent: {fileID: 535632443}
-  Error: {fileID: 0}
+  Error: {fileID: 1589519797}
   Scale: 0.02
 --- !u!114 &535632445
 MonoBehaviour:
@@ -3556,7 +3556,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535632443}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -109.1, y: 8.6, z: 1.2}
+  m_LocalPosition: {x: -94.79, y: 8.6, z: 1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11545,11 +11545,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: d1839ded843563f44af5fa80c046d3aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -123.12
+      value: -110.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d1839ded843563f44af5fa80c046d3aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.03
+      value: 7.8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d1839ded843563f44af5fa80c046d3aa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16689,7 +16689,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1589519797}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -17030,7 +17030,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1642105218}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -109.1, y: 8.6, z: 1.2}
+  m_LocalPosition: {x: -94.64, y: 8.6, z: 1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -17673,7 +17673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
   sortOrder: 20
 --- !u!1001 &1728953677
 Prefab:
@@ -19484,7 +19484,7 @@ MonoBehaviour:
   SpawnPoint: {fileID: 2068996709}
   Prefab: {fileID: 100036, guid: dd73dc79e23bcfa4bb053df1f5e28fd8, type: 3}
   Parent: {fileID: 1972230240}
-  Error: {fileID: 0}
+  Error: {fileID: 1589519797}
   Scale: 0.002
 --- !u!114 &1972230242
 MonoBehaviour:
@@ -19528,7 +19528,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1972230240}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -109.1, y: 8.6, z: 1.2}
+  m_LocalPosition: {x: -94.95, y: 8.6, z: 1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20419,7 +20419,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2068996708}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -109.1, y: 8.6, z: 1.2}
+  m_LocalPosition: {x: -94.8, y: 8.6, z: 1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
