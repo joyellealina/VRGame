@@ -20,8 +20,6 @@ public class spawn : MonoBehaviour {
 			BoatMovement.score--;
 		} 
 		else {
-			//UI = GameObject.Find ("Spawn Error");
-			//Error.setActive(true);
 			Error.GetComponent<Text>().enabled = true;
 			Invoke ("disableText", 3f);
 		}
