@@ -22,6 +22,7 @@ The majority of our research and planning is located on our [Wiki](https://githu
 - How to use more advanced Unity features
 - Advanced C# scripting
 - How to integrate VR controls
+- Basic AI Implementation
 
 ### Biggest issues
 
@@ -32,6 +33,12 @@ Upon completing work on seperate branches, we ran into several issues when tryin
 ***Use of Free Models and Aspects***
 
 Due to time constraints and lack of experience, we were unable to produce any of our own 3D models for this project. This led to using free Unity aspects and models found online. The problem with this is limited functionality. We did our best to modify assets and models to best suit the use cases for this project. For the list of assets and models used, please navigate to our ***External Model Resources*** section.
+
+***Testing***
+After VR functionality was added, testing was placed onto one person since there was only one Oculus headset. Testing without the headset was difficult and took much longer than expected. Testing even small functionalities and scripts could take large amounts of time.
+
+***AI***
+Implementing the AI for the different tiers of boats was difficult and still does not fully work they way we want. We also had some AI implementation for the civillians: they would wander the town until they came into contact with flood water, they would then rush to safe locations on top of buildings. This functionality was in the game, but was erratic and added complexity that could not be resolved within the time frame. We plan to put this functionality back into the game after more research and testing.
   
 ### Contributors
   - [Joyelle Woodson](https://github.com/joyellealina)
@@ -39,12 +46,14 @@ Due to time constraints and lack of experience, we were unable to produce any of
 
 ### Work Distribution
   - Joyelle Woodson:
-    * Creating Rain and Flood Effects
-    * Initial AI Implementation
+    * Creating Rain and Flood Scripts
+    * Initial Boat AI Implementation
+    * Initial Civillian AI Implementation (Removed for now...)
   - Derek Fritz:
     * Design of City and Terrain
     * UI Groundwork
     * VR / Touch Controller Functionality
+    * Initial Resource Functionality
 ***
 We'll put screenshots and explanations here!
 ***
@@ -73,7 +82,9 @@ We'll put screenshots and explanations here!
 
 - [x] Extend Boat AI to multiple points (**Completed 4/9/2018**)
 - [x] Add Counter to Canvas (**Completed 4/9/2018**)
-- [ ] Add basic characters
+
+***To Be Completed For Project 3***
+- [ ] Add basic character models
 - [ ] Add AI pathfinding to character objects
 
  ***
