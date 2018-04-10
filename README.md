@@ -71,11 +71,11 @@ We'll put screenshots and explanations here!
 
 ***Week 4***
 
-- [ ] Extend Boat AI to multiple points
-- [ ] Add Counter to Canvas
+- [x] Extend Boat AI to multiple points (**Completed 4/9/2018**)
+- [x] Add Counter to Canvas (**Completed 4/9/2018**)
 - [ ] Add basic characters
 - [ ] Add AI pathfinding to character objects
-- [ ] Add UI elements ex. Coin Bank, Resource Bar(?), etc.
+
  ***
  ### External Model/Asset Sources
 - [Rain Effects](https://assetstore.unity.com/packages/vfx/particles/environment/rain-maker-2d-and-3d-rain-particle-system-for-unity-34938)
