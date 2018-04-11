@@ -127,4 +127,5 @@ And carry on with their mission after retrieving them.
 - [Old Rowboat](https://www.turbosquid.com/FullPreview/Index.cfm/ID/675083)
 - [Zodiac Project Boat](https://www.turbosquid.com/FullPreview/Index.cfm/ID/1142795)
 - [Free Boat 3D Model](https://www.turbosquid.com/FullPreview/Index.cfm/ID/222609)
+- [Boat 3D Model](https://archive3d.net/?a=download&id=8ab68bde)
 - [Streets](https://assetstore.unity.com/packages/3d/small-town-america-streets-free-59759)
