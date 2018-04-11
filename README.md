@@ -129,3 +129,4 @@ And carry on with their mission after retrieving them.
 - [Free Boat 3D Model](https://www.turbosquid.com/FullPreview/Index.cfm/ID/222609)
 - [Boat 3D Model](https://archive3d.net/?a=download&id=8ab68bde)
 - [Streets](https://assetstore.unity.com/packages/3d/small-town-america-streets-free-59759)
+- [Sci-Fi Texture Pack](https://assetstore.unity.com/packages/2d/textures-materials/sci-fi-texture-pack-1-23301)
