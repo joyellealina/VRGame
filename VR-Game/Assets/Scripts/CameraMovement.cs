@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour {
 
-	int speed = 2000;
+	int speed = 2600;
 	private float rotateSpeed = 0.5f;
 	public Vector2 leftThumbstickPosition;
 	public Vector2 rightThumbstickPosition;
