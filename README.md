@@ -3,7 +3,7 @@
 We plan on creating a game where the user needs to evacuate a city/town in an severe weather scenario. In this sense, we are developing a project that includes resource-management aspects, while also incorporating evacuation scenarios.
  
 ## Video Demo
-[Link to our short video presentation](https://youtu.be/ebhagYu79kg)
+[Link to our short video presentation](https://youtu.be/akuz5iDR_eI)
 
 ## Project Report
 
