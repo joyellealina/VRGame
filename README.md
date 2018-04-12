@@ -137,3 +137,4 @@ And carry on with their mission after retrieving them.
 - [Boat 3D Model](https://archive3d.net/?a=download&id=8ab68bde)
 - [Streets](https://assetstore.unity.com/packages/3d/small-town-america-streets-free-59759)
 - [Sci-Fi Texture Pack](https://assetstore.unity.com/packages/2d/textures-materials/sci-fi-texture-pack-1-23301)
+- [Text Mesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126?aid=1101lPGj&utm_source=aff)
