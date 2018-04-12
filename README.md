@@ -59,6 +59,8 @@ Implementing the AI for the different tiers of boats was difficult and still doe
     * VR / Touch Controller Functionality
     * Initial Resource Functionality
 ***
+***NOTE: The images below are from a slightly older version of the game that lack certain aesthetic improvements. However, the functionalities demonstrated remain the same.***
+
 Here is a look at our player UI, which is anchored to the player's left touch controller. This allows them to look at and interact with the game menu dynamically. The "Begin Operation" button activates the rainfall and initiates the flooding. The three "Build" buttons allow the user to create rescue boat units in exchange for resources, which is represented by the gold bar at the bottom. Resources are obtained as the rescue units succesfully retrieve civilians.
 
 ![](/Presentation/1.png)
@@ -115,6 +117,7 @@ And carry on with their mission after retrieving them.
 
 - [x] Extend Boat AI to multiple points (**Completed 4/9/2018**)
 - [x] Add Counter to Canvas (**Completed 4/9/2018**)
+- [x] Add a start menu to the game (**Completed 4/10/2018**)
 
 ***To Be Completed For Project 3***
 (Will Add to this List)
