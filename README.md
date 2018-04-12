@@ -5,7 +5,6 @@ We plan on creating a game where the user needs to evacuate a city/town in an se
 ## Standalone Download
 [Link to download our game's standalone build](https://mega.nz/#!Kq4zhYAI!C5Cr6akVIUc6un2S3niOCqdJakh8KnpARj7xkJEdQNo)
 
-This is the ***most up-to-date version*** of our build, as difficulties have arisen in updating the files directly to the repository. As such, please download the standalone executable for the most complete experience.
 ## Video Demo
 [Link to our short video presentation](https://youtu.be/akuz5iDR_eI)
 
@@ -45,6 +44,10 @@ After VR functionality was added, testing was placed onto one person since there
 ***AI***
 
 Implementing the AI for the different tiers of boats was difficult and still does not fully work they way we want. We also had some AI implementation for the civillians: they would wander the town until they came into contact with flood water, they would then rush to safe locations on top of buildings. This functionality was in the game, but was erratic and added complexity that could not be resolved within the time frame. We plan to put this functionality back into the game after more research and testing.
+
+***Committing While Exceeding Github File Limit Size***
+
+Whe importing one of our assets, we did not realize that it contained a file that exceeded GitHub's 100MB file size limit. We proceeded to make commits and when trying to push them to our repository, it would fail. This caused a snowball effect in following commits and took hours to resolve. The solution was to create a temporary branch at the commit where the bad file was first introduced, `rm` the file, and perform a rebase. With the file deleted at the first occcurrence, all following commits were recursivley ammended.
   
 ### Contributors
   - [Joyelle Woodson](https://github.com/joyellealina)
@@ -123,8 +126,9 @@ And carry on with their mission after retrieving them.
 
 ***To Be Completed For Project 3***
 (Will Add to this List)
-- [ ] Add basic character models
+- [ ] Improve character models
 - [ ] Add AI pathfinding to character objects
+- [ ] Begin planning new scenarios to simulate
 
  ***
  ### External Model/Asset Sources
