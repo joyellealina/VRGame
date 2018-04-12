@@ -14,11 +14,11 @@ We plan on creating a game where the user needs to evacuate a city/town in an se
 The majority of our research and planning is located on our [Wiki](https://github.com/joyellealina/VRGame/wiki/VR-Evacuation-Game---Home) page.
 
 ### Tools/Devices Used
-- Unity 2017
-- Github Desktop
-- Visual Studio, VSCode, etc. (Any editor is fine)
-- Oculus Rift & Touch Controllers
-- Unity Oculus SDK
+- [Unity](https://unity3d.com/)
+- [Github Desktop](https://desktop.github.com/)
+- [VSCode](https://code.visualstudio.com/) 
+- [Oculus Rift & Touch Controllers](https://www.oculus.com/rift/)
+- [Unity Oculus SDK](https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/)
 
 ### We learned...
 - How to collaborate as a team on a larger project
