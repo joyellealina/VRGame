@@ -4,6 +4,8 @@ We plan on creating a game where the user needs to evacuate a city/town in an se
 
 ## Standalone Download
 [Link to download our game's standalone build](https://mega.nz/#!Kq4zhYAI!C5Cr6akVIUc6un2S3niOCqdJakh8KnpARj7xkJEdQNo)
+
+This is the ***most up-to-date version*** of our build, as difficulties have arisen in updating the files directly to the repository. As such, please download the standalone executable for the most complete experience.
 ## Video Demo
 [Link to our short video presentation](https://youtu.be/akuz5iDR_eI)
 
