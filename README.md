@@ -1,25 +1,43 @@
-# CS 4331-002 - Virtual Reality Project 2
+# CS 4331-002 - Virtual Reality Project 2/3 - Flood Fighter Rescue Simulator
 
-We plan on creating a game where the user needs to evacuate a city/town in an severe weather scenario. In this sense, we are developing a project that includes resource-management aspects, while also incorporating evacuation scenarios.
+For Project 2, we have created a game which simulates a city being flooded. The player is put in charge of the rescue operation, where they must collect resources and build rescue units to retrieve the civilians safely.
+
+For Project 3, we plan on expanding the scope of the game by adding to the rescue unit functionality, adding additional weather scenarios, allowing the user to specify civilian population demographics, and creating a scoring system. For further details on the improvements we plan on making, please reference the **Project 3 Proposal** section below.
 
 ## Standalone Download
 [Link to download our game's standalone build](https://mega.nz/#!Kq4zhYAI!C5Cr6akVIUc6un2S3niOCqdJakh8KnpARj7xkJEdQNo)
 
-This is the ***most up-to-date version*** of our build, as difficulties have arisen in updating the files directly to the repository. As such, please download the standalone executable for the most complete experience.
 ## Video Demo
 [Link to our short video presentation](https://youtu.be/akuz5iDR_eI)
 
-## Project Report
+## Project Report - Project 3
+
+### Project 3 Proposal
+Project 3 will serve as an improved version of Project 2 with an expanded scope. Some of the additions we plan on making are as follows:
+
+***Note: Additional features may be added as suggestions arise. Complete implementation of the following depends on time constraints.***
+- Greater differences in functionality between rescue units
+- The ability to specify various aspects of the civilian demographics (age, profession, race, etc.)
+- Additional weather scenarios (acid rain, huricane, etc.)
+- Improvements to civilian modeling
+- Implementation of civilian AI
+- Scoring system that allows for competition
+
+This game is fit for VR implementation as it allows the user to dynamically experience the disaster scenario as it happens, as well as observe first-hand the effects of their gameplay decisions.
+
+As it will be an extension to Project 2, the core development tools being used will remain the same (these can be found below in the **Tools/Devices Used** section of our Project 2 Report). The game will work on Windows/Mac systems that have Oculus VR compatability.
+
+## Project Report - Project 2
 
 ### Project Planning
 The majority of our research and planning is located on our [Wiki](https://github.com/joyellealina/VRGame/wiki/VR-Evacuation-Game---Home) page.
 
 ### Tools/Devices Used
-- Unity 2017
-- Github Desktop
-- Visual Studio, VSCode, etc. (Any editor is fine)
-- Oculus Rift & Touch Controllers
-- Unity Oculus SDK
+- [Unity](https://unity3d.com/)
+- [Github Desktop](https://desktop.github.com/)
+- [VSCode](https://code.visualstudio.com/) 
+- [Oculus Rift & Touch Controllers](https://www.oculus.com/rift/)
+- [Unity Oculus SDK](https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/)
 
 ### We learned...
 - How to collaborate as a team on a larger project
@@ -45,6 +63,10 @@ After VR functionality was added, testing was placed onto one person since there
 ***AI***
 
 Implementing the AI for the different tiers of boats was difficult and still does not fully work they way we want. We also had some AI implementation for the civillians: they would wander the town until they came into contact with flood water, they would then rush to safe locations on top of buildings. This functionality was in the game, but was erratic and added complexity that could not be resolved within the time frame. We plan to put this functionality back into the game after more research and testing.
+
+***Committing While Exceeding Github File Limit Size***
+
+Whe importing one of our assets, we did not realize that it contained a file that exceeded GitHub's 100MB file size limit. We proceeded to make commits and when trying to push them to our repository, it would fail. This caused a snowball effect in following commits and took hours to resolve. The solution was to create a temporary branch at the commit where the bad file was first introduced, `rm` the file, and perform a rebase. With the file deleted at the first occcurrence, all following commits were recursivley ammended.
   
 ### Contributors
   - [Joyelle Woodson](https://github.com/joyellealina)
@@ -123,8 +145,9 @@ And carry on with their mission after retrieving them.
 
 ***To Be Completed For Project 3***
 (Will Add to this List)
-- [ ] Add basic character models
+- [ ] Improve character models
 - [ ] Add AI pathfinding to character objects
+- [ ] Begin planning new scenarios to simulate
 
  ***
  ### External Model/Asset Sources
