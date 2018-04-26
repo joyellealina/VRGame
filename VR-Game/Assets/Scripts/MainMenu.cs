@@ -5,8 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
-	public void PlayGame (){
-		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
+	public void FloodGame (){
+		SceneManager.LoadScene (1);
+	}
+
+	public void AcidGame (){
+		//SceneManager.LoadScene (Acid);
+	}
+
+	public void TornadoGame (){
+		//SceneManager.LoadScene (Tornado);
 	}
 
 	public void QuitGame (){
@@ -15,6 +23,6 @@ public class MainMenu : MonoBehaviour {
 	}
 
 	public void ReturnMenu (){
-		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex - 1);
+		SceneManager.LoadScene (0);
 	}
 }
