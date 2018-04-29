@@ -10,11 +10,11 @@ public class MainMenu : MonoBehaviour {
 	}
 
 	public void AcidGame (){
-		//SceneManager.LoadScene (Acid);
+		SceneManager.LoadScene (2);
 	}
 
 	public void TornadoGame (){
-		//SceneManager.LoadScene (Tornado);
+		SceneManager.LoadScene (3);
 	}
 
 	public void QuitGame (){
