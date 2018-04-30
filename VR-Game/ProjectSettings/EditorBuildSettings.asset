@@ -16,7 +16,7 @@ EditorBuildSettings:
     guid: 4771f8cbdfe6dc9469160a3776295104
   - enabled: 1
     path: Assets/Acid Rain.unity
-    guid: 290d647db6519a94195f6264a538b4f8
+    guid: 945ecaaa0106dd042965df88ecf29645
   - enabled: 1
     path: Assets/Tornado.unity
-    guid: f31ba96ffea4a184896b2fe902d53483
+    guid: ff5dda59b503da1459eff721df3fe3a3

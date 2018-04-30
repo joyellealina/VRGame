@@ -7,7 +7,7 @@ public class ActivateTornado : MonoBehaviour
 	public GameObject Tornado;
 	public Button start;
 
-	public void ToggleRain()
+	public void ToggleTornado()
 	{
 		Tornado.SetActive(true);
 		Debug.Log("Tornado is now on");
