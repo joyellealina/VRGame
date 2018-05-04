@@ -145,9 +145,10 @@ And carry on with their mission after retrieving them.
 
 ***To Be Completed For Project 3***
 (Will Add to this List)
-- [ ] Improve character models
-- [ ] Add AI pathfinding to character objects
-- [ ] Begin planning new scenarios to simulate
+- [x] Improve character models (**Completed 5/2/2018**)
+- [x] Add AI pathfinding to character objects (**Completed 5/2/2018**)
+- [x] Begin planning new scenarios to simulate
+- [ ] Add pathfinding to new weather scenarios
 
  ***
  ### External Model/Asset Sources
