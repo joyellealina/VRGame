@@ -6,14 +6,17 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 
 	public void FloodGame (){
+		BoatMovement.score = 1; // Resets starting resources
 		SceneManager.LoadScene (1);
 	}
 
 	public void AcidGame (){
+		BoatMovement.score = 1; // Resets starting resources
 		SceneManager.LoadScene (2);
 	}
 
 	public void TornadoGame (){
+		BoatMovement.score = 1;	// Resets starting resources
 		SceneManager.LoadScene (3);
 	}
 
