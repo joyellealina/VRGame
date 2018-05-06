@@ -5,20 +5,6 @@ using UnityEngine.AI;
 
 public class TornadoMovement : MonoBehaviour {
 
-	/*
-	Vector3 startPosition = new Vector3 (81, 0, 58);
-	Float roamRadius = 3F;
-
-	void FreeRoam(){
-		Vector3 randomDirection = Random.insideUnitSphere * roamRadius;
-		randomDirection += startPosition;
-		NavMeshHit hit;
-		NavMesh.SamplePosition (randomDirection, out hit, roamRadius, 1);
-		Vector3 finalPosition = hit.position;
-		_nav.destination = finalPosition;
-	}
-	*/
-
 	public float timer;
 	public int newTarget;
 	public float speed;
@@ -27,23 +13,28 @@ public class TornadoMovement : MonoBehaviour {
 
 	void Start () {
 		nav = gameObject.GetComponent<NavMeshAgent> ();
+		createNewTarget ();
 	}
 
 	void Update () {
 		nav.speed = speed;
 		timer += Time.deltaTime;
+		/*
 		if(timer >= newTarget){
 			createNewTarget ();
 			timer = 0;
+		}*/
+		if (gameObject.transform.position.x == target.x && gameObject.transform.position.z == target.z) {
+			createNewTarget ();
 		}
 	}
 
 	void createNewTarget () {
-		float myX = gameObject.transform.position.x;
-		float myZ = gameObject.transform.position.z;
+		//float myX = gameObject.transform.position.x;
+		//float myZ = gameObject.transform.position.z;
 
-		float xPos = myX + Random.Range (myX - 20, myX + 20);
-		float zPos = myZ + Random.Range (myZ - 20, myZ + 20);
+		float xPos = Random.Range (-63, 96);
+		float zPos = Random.Range (-65, 86);
 
 		target = new Vector3 (xPos, gameObject.transform.position.y, zPos);
 

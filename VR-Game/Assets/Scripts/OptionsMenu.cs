@@ -14,9 +14,9 @@ public class OptionsMenu : MonoBehaviour {
 	public Slider slider2;
 
 	void Update () {
-		sliderValue1.text = slider1.value.ToString ("0.0");
-		inverseSliderValue1.text = (100 - slider1.value).ToString ("0.0");
-		sliderValue2.text = slider2.value.ToString ("0.0");
-		inverseSliderValue2.text = (100 - slider2.value).ToString ("0.0");
+		sliderValue1.text = (slider1.value * 100).ToString ("0");
+		inverseSliderValue1.text = (100 - slider1.value * 100).ToString ("0");
+		sliderValue2.text = (slider2.value * 100).ToString ("0");
+		inverseSliderValue2.text = (100 - slider2.value * 100).ToString ("0");
 	}
 }
