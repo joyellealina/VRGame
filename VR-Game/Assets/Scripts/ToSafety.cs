@@ -7,7 +7,13 @@ public class ToSafety : MonoBehaviour
 {
     NavMeshAgent _navMeshAgent;
     public GameObject FloodWater;
-    public Transform SafeLocation;
+    public GameObject SafeLocation;
+	public GameObject RescueLocation;
+
+	public void Start()
+	{
+		_navMeshAgent = gameObject.GetComponent<NavMeshAgent> ();
+	}
 
     public void MoveToSafety()
     {
@@ -15,17 +21,17 @@ public class ToSafety : MonoBehaviour
         {
             gameObject.GetComponent<PersonPatrol>().enabled = false;
             _navMeshAgent.speed = 3.5f;
-            _navMeshAgent.destination = SafeLocation.position;
+            _navMeshAgent.destination = SafeLocation.transform.position;
         }
     }
-	/*
+
 	public void Update()
 	{
-		if (FloodWater.activeSelf)
+		if (Vector3.Distance(gameObject.transform.position, SafeLocation.transform.position) < 1.5)
 		{
-			gameObject.GetComponent<PersonPatrol>().enabled = false;
-			_navMeshAgent.speed = 3.5f;
-			_navMeshAgent.destination = SafeLocation.position;
+			Debug.Log("Safe Location Reached");
+			gameObject.transform.position = RescueLocation.transform.position;
+			gameObject.transform.parent = RescueLocation.transform;
 		}
-	}*/
+	}
 }
