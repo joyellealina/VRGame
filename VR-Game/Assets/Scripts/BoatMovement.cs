@@ -73,6 +73,11 @@ public class BoatMovement : MonoBehaviour {
 		if (i == size) {
 			win = true;
 		}
+		// Rescue units are destroyed when running into the tornado
+		if (Vector3.Distance (gameObject.transform.position, TornadoMovement.tornadoPosition) < 10) {
+			Debug.Log ("Rescue unit destroyed");
+			Destroy (gameObject);
+		}
     }
 
 }

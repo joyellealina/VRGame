@@ -33,5 +33,11 @@ public class ToSafety : MonoBehaviour
 			gameObject.transform.position = RescueLocation.transform.position;
 			gameObject.transform.parent = RescueLocation.transform;
 		}
+		// Civilians are destroyed when running into the tornado
+		if (Vector3.Distance (gameObject.transform.position, TornadoMovement.tornadoPosition) < 10) {
+			Debug.Log ("Civilian has died");
+			Destroy (transform.parent.gameObject);
+			Destroy (gameObject);
+		}
 	}
 }
