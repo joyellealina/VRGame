@@ -14,6 +14,7 @@ public class BoatMovement : MonoBehaviour {
     private int size; // Size of list
     private int i = 0;
 	public static int score = 1;
+	public static bool win = false;
 
     public void Start()
 	{
@@ -61,12 +62,17 @@ public class BoatMovement : MonoBehaviour {
             if (i == size || currentCapacity == maxCapacity)
             {
                 _navMeshAgent.destination = SpawnPoint.position;
-                if (gameObject.transform.position == SpawnPoint.position)
+				if (Vector3.Distance(gameObject.transform.position, SpawnPoint.transform.position) < 20)
                 {
+					Debug.Log ("Win Conditions have been met");
+					win = true;
                     Destroy(gameObject);
                 }
             }
         }
+		if (i == size) {
+			win = true;
+		}
     }
 
 }
