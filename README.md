@@ -12,6 +12,8 @@ For Project 3, we plan on expanding the scope of the game by adding to the rescu
 ## Video Demo
 [Link to our short video presentation](https://youtu.be/akuz5iDR_eI)
 
+***
+
 ## Project Report - Project 3
 
 ### Project 3 Proposal
@@ -33,7 +35,7 @@ As it will be an extension to Project 2, the core development tools being used w
 
 ***Week 1***
 
-- [ ] Expand main menu to allow for new features (**Completed 4/26/2018**)
+- [x] Expand main menu to allow for new features (**Completed 4/26/2018**)
 - [x] Begin planning new scenarios to simulate (**Completed 4/29/2018**)
 
 ***Week 2***
