@@ -1,4 +1,4 @@
-# CS 4331-002 - Virtual Reality Project 2/3 - Flood Fighter Rescue Simulator
+# CS 4331-002 - Virtual Reality Project 2/3 - Disaster Force Rescue Simulator
 
 For Project 2, we have created a game which simulates a city being flooded. The player is put in charge of the rescue operation, where they must collect resources and build rescue units to retrieve the civilians safely.
 
