@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.34739882, g: 0.41475335, b: 0.49778283, a: 1}
+  m_IndirectSpecularColor: {r: 0.34744054, g: 0.4146754, b: 0.4977309, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 22562399}
   - component: {fileID: 22562398}
   - component: {fileID: 22562397}
+  - component: {fileID: 22562400}
   m_Layer: 5
   m_Name: Spawn Dingy
   m_TagString: Untagged
@@ -254,6 +255,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 22562395}
+--- !u!114 &22562400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 22562395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!1001 &37164531
 Prefab:
   m_ObjectHideFlags: 0
@@ -1854,7 +1867,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &173816195
 Prefab:
@@ -2220,7 +2233,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 205668615}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.91, y: 5.25, z: 30.61}
+  m_LocalPosition: {x: 13.91, y: 4.39, z: 30.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4246,7 +4259,7 @@ NavMeshAgent:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535632443}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -1372625422
   m_Radius: 0.5
   m_Speed: 7
   m_Acceleration: 8
@@ -4267,7 +4280,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535632443}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -90.4, y: 4.57, z: 1.2}
+  m_LocalPosition: {x: -90.8, y: 8.6, z: 1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6671,6 +6684,7 @@ GameObject:
   - component: {fileID: 901806082}
   - component: {fileID: 901806081}
   - component: {fileID: 901806080}
+  - component: {fileID: 901806083}
   m_Layer: 5
   m_Name: Spawn Rowboat
   m_TagString: Untagged
@@ -6747,17 +6761,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1642105223}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &901806081
@@ -6793,6 +6796,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 901806078}
+--- !u!114 &901806083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 901806078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!1001 &908387685
 Prefab:
   m_ObjectHideFlags: 0
@@ -7711,6 +7726,7 @@ GameObject:
   - component: {fileID: 1068211975}
   - component: {fileID: 1068211974}
   - component: {fileID: 1068211973}
+  - component: {fileID: 1068211976}
   m_Layer: 5
   m_Name: Rain
   m_TagString: Untagged
@@ -7798,6 +7814,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1770897636}
+        m_MethodName: MoveToSafety
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 760013923}
+        m_MethodName: MoveToSafety
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1068211974
@@ -7833,6 +7871,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1068211971}
+--- !u!114 &1068211976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068211971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!1 &1078502859
 GameObject:
   m_ObjectHideFlags: 0
@@ -11876,7 +11926,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1225356530
 Prefab:
@@ -13581,7 +13631,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1489155720}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -52.34, y: 4.1, z: -20.32}
+  m_LocalPosition: {x: -52.34, y: 3.93, z: -20.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18403,6 +18453,7 @@ GameObject:
   - component: {fileID: 1729209201}
   - component: {fileID: 1729209200}
   - component: {fileID: 1729209199}
+  - component: {fileID: 1729209202}
   m_Layer: 5
   m_Name: Spawn Skiff
   m_TagString: Untagged
@@ -18525,6 +18576,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1729209197}
+--- !u!114 &1729209202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729209197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!4 &1741981934 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 77887f27c8b05084594ae26a2a830405, type: 3}
@@ -18734,6 +18797,7 @@ GameObject:
   - component: {fileID: 1770407317}
   - component: {fileID: 1770407316}
   - component: {fileID: 1770407315}
+  - component: {fileID: 1770407318}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -18845,6 +18909,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1770407313}
+--- !u!114 &1770407318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1770407313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!1 &1770897635 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 119000, guid: 907fd825e3988774caab4234b943bf44, type: 2}
@@ -21091,7 +21167,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2068996708}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -92.1, y: 2.68, z: 1.2}
+  m_LocalPosition: {x: -90.8, y: 8.6, z: 1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

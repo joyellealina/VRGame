@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 22562399}
   - component: {fileID: 22562398}
   - component: {fileID: 22562397}
+  - component: {fileID: 22562400}
   m_Layer: 5
   m_Name: Spawn SUV 2
   m_TagString: Untagged
@@ -254,6 +255,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 22562395}
+--- !u!114 &22562400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 22562395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!1001 &37164531
 Prefab:
   m_ObjectHideFlags: 0
@@ -1045,7 +1058,7 @@ MonoBehaviour:
   SpawnPoint: {fileID: 0}
   Prefab: {fileID: 100006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 2}
   Parent: {fileID: 105504164}
-  Error1: {fileID: 0}
+  Error1: {fileID: 1589519797}
   Error2: {fileID: 0}
   Scale: 1
   Water: {fileID: 0}
@@ -2735,7 +2748,7 @@ MonoBehaviour:
   SpawnPoint: {fileID: 0}
   Prefab: {fileID: 1360685273188638, guid: 5651aee82e8de434080d22ccb033c3c9, type: 2}
   Parent: {fileID: 350223211}
-  Error1: {fileID: 0}
+  Error1: {fileID: 1589519797}
   Error2: {fileID: 0}
   Scale: 1
   Water: {fileID: 0}
@@ -6801,6 +6814,7 @@ GameObject:
   - component: {fileID: 901806082}
   - component: {fileID: 901806081}
   - component: {fileID: 901806080}
+  - component: {fileID: 901806083}
   m_Layer: 5
   m_Name: Spawn SUV 1
   m_TagString: Untagged
@@ -6923,6 +6937,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 901806078}
+--- !u!114 &901806083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 901806078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!1001 &908387685
 Prefab:
   m_ObjectHideFlags: 0
@@ -7874,6 +7900,7 @@ GameObject:
   - component: {fileID: 1068211975}
   - component: {fileID: 1068211974}
   - component: {fileID: 1068211973}
+  - component: {fileID: 1068211976}
   m_Layer: 5
   m_Name: Rain
   m_TagString: Untagged
@@ -7996,6 +8023,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1068211971}
+--- !u!114 &1068211976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068211971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!1 &1078502859
 GameObject:
   m_ObjectHideFlags: 0
@@ -18242,7 +18281,7 @@ MonoBehaviour:
   SpawnPoint: {fileID: 0}
   Prefab: {fileID: 1300053237604404, guid: 005b9f5305c0dd24cab964f772208d38, type: 2}
   Parent: {fileID: 1445373091}
-  Error1: {fileID: 0}
+  Error1: {fileID: 1589519797}
   Error2: {fileID: 0}
   Scale: 1
   Water: {fileID: 0}
@@ -23288,6 +23327,7 @@ GameObject:
   - component: {fileID: 1729209201}
   - component: {fileID: 1729209200}
   - component: {fileID: 1729209199}
+  - component: {fileID: 1729209202}
   m_Layer: 5
   m_Name: Spawn Helicopter
   m_TagString: Untagged
@@ -23410,6 +23450,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1729209197}
+--- !u!114 &1729209202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729209197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!4 &1741981934 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 77887f27c8b05084594ae26a2a830405, type: 3}
@@ -23619,6 +23671,7 @@ GameObject:
   - component: {fileID: 1770407317}
   - component: {fileID: 1770407316}
   - component: {fileID: 1770407315}
+  - component: {fileID: 1770407318}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -23730,6 +23783,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1770407313}
+--- !u!114 &1770407318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1770407313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
 --- !u!1 &1772138414
 GameObject:
   m_ObjectHideFlags: 0
