@@ -43,8 +43,8 @@ As it will be an extension to Project 2, the core development tools being used w
 - [x] Add pathfinding to new weather scenarios (**Completed 5/6/2018**)
 
 ***Week 3***
+- [x] Implement time-based scoring system (**Completed 5/7/2018**)
 - [ ] Establish functionality of new weather scenarios
-- [ ] Implement time-based scoring system
 - [ ] Implement civilian demographic features
 
 ***
