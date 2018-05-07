@@ -44,7 +44,7 @@ public class BoatMovement : MonoBehaviour {
         var distance = Vector3.Distance(targets[i].transform.position, gameObject.transform.position);
 
         // When the boat gets close to the target
-        if (distance < 7 )
+        if (distance < 10 )
         {
             targets[i].SetActive(false);
             //Destroy(targets[i]);

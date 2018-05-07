@@ -17,12 +17,12 @@ public class ToSafety : MonoBehaviour
 
     public void MoveToSafety()
     {
-        if (FloodWater.activeSelf)
-        {
+        //if (FloodWater.activeSelf)
+        //{
             gameObject.GetComponent<PersonPatrol>().enabled = false;
             _navMeshAgent.speed = 3.5f;
             _navMeshAgent.destination = SafeLocation.transform.position;
-        }
+        //}
     }
 
 	public void Update()
