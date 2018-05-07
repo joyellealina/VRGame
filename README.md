@@ -2,7 +2,7 @@
 
 For Project 2, we have created a game which simulates a city being flooded. The player is put in charge of the rescue operation, where they must collect resources and build rescue units to retrieve the civilians safely.
 
-For Project 3, we plan on expanding the scope of the game by adding to the rescue unit functionality, adding additional weather scenarios, allowing the user to specify civilian population demographics, and creating a scoring system. For further details on the improvements we plan on making, please reference the **Project 3 Proposal** section below.
+For Project 3, we have expanded the scope of the original game by adding two additional scenearios that simulate acid rain and a tornado. Improvements have been made to character models and AI, allowing for more immersive behavior before and during these disaster scenarios. Civilian demographics have also been added, allowing the user to specify between several categories that impact the characteristics of the rescue targets. Finally, a time-based scoring system has been implemented that allows for you to keep track of your fastest rescue times.
 
 ![](/Presentation/Project_3_Screenshot.png)
 
