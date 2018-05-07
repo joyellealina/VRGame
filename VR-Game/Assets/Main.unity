@@ -17858,6 +17858,7 @@ MonoBehaviour:
   win: {fileID: 1681687010}
   gameTimer: 0
   winTime: {fileID: 437467604}
+  gameMode: Flood
 --- !u!4 &1585851990 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: b392c3200ebac344fbc91be43739f8c0, type: 3}
