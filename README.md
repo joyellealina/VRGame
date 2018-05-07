@@ -12,8 +12,6 @@ For Project 3, we plan on expanding the scope of the game by adding to the rescu
 ## Video Demo
 [Link to our short video presentation](https://youtu.be/akuz5iDR_eI)
 
-***
-
 ## Project Report - Project 3
 
 ### Project 3 Proposal
