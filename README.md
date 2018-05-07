@@ -4,6 +4,8 @@ For Project 2, we have created a game which simulates a city being flooded. The 
 
 For Project 3, we plan on expanding the scope of the game by adding to the rescue unit functionality, adding additional weather scenarios, allowing the user to specify civilian population demographics, and creating a scoring system. For further details on the improvements we plan on making, please reference the **Project 3 Proposal** section below.
 
+![](/Presentation/Project_3_Screenshot.png)
+
 ## Standalone Download
 [Link to download our game's standalone build](https://mega.nz/#!Kq4zhYAI!C5Cr6akVIUc6un2S3niOCqdJakh8KnpARj7xkJEdQNo)
 
