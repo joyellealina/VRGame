@@ -29,6 +29,26 @@ This game is fit for VR implementation as it allows the user to dynamically expe
 
 As it will be an extension to Project 2, the core development tools being used will remain the same (these can be found below in the **Tools/Devices Used** section of our Project 2 Report). The game will work on Windows/Mac systems that have Oculus VR compatability.
 
+### Timeline and Tasks
+
+***Week 1***
+
+- [ ] Expand main menu to allow for new features (**Completed 4/26/2018**)
+- [x] Begin planning new scenarios to simulate (**Completed 4/29/2018**)
+
+***Week 2***
+
+- [x] Improve character models (**Completed 5/2/2018**)
+- [x] Add AI pathfinding to character objects (**Completed 5/2/2018**)
+- [x] Add pathfinding to new weather scenarios (**Completed 5/6/2018**)
+
+***Week 3***
+- [ ] Establish functionality of new weather scenarios
+- [ ] Implement time-based scoring system
+- [ ] Implement civilian demographic features
+
+***
+
 ## Project Report - Project 2
 
 ### Project Planning
@@ -144,17 +164,6 @@ And carry on with their mission after retrieving them.
 - [x] Extend Boat AI to multiple points (**Completed 4/9/2018**)
 - [x] Add Counter to Canvas (**Completed 4/9/2018**)
 - [x] Add a start menu to the game (**Completed 4/10/2018**)
-
-***Project 3***
-
-- [ ] Expand main menu to allow for new features (**Completed 4/26/2018**)
-- [x] Begin planning new scenarios to simulate (**Completed 4/29/2018**)
-- [x] Improve character models (**Completed 5/2/2018**)
-- [x] Add AI pathfinding to character objects (**Completed 5/2/2018**)
-- [x] Add pathfinding to new weather scenarios (**Completed 5/6/2018**)
-- [ ] Establish functionality of new weather scenarios
-- [ ] Implement time-based scoring system
-- [ ] Implement civilian demographic features
 
  ***
  ### External Model/Asset Sources
