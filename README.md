@@ -145,12 +145,16 @@ And carry on with their mission after retrieving them.
 - [x] Add Counter to Canvas (**Completed 4/9/2018**)
 - [x] Add a start menu to the game (**Completed 4/10/2018**)
 
-***To Be Completed For Project 3***
-(Will Add to this List)
+***Project 3***
+
+- [ ] Expand main menu to allow for new features (**Completed 4/26/2018**)
+- [x] Begin planning new scenarios to simulate (**Completed 4/29/2018**)
 - [x] Improve character models (**Completed 5/2/2018**)
 - [x] Add AI pathfinding to character objects (**Completed 5/2/2018**)
-- [x] Begin planning new scenarios to simulate
-- [ ] Add pathfinding to new weather scenarios
+- [x] Add pathfinding to new weather scenarios (**Completed 5/6/2018**)
+- [ ] Establish functionality of new weather scenarios
+- [ ] Implement time-based scoring system
+- [ ] Implement civilian demographic features
 
  ***
  ### External Model/Asset Sources
