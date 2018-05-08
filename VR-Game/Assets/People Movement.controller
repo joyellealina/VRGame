@@ -27,7 +27,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: f_walk
+  m_Name: Walk
   m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions: []
@@ -56,7 +56,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102574468583970144}
-    m_Position: {x: 240, y: 132, z: 0}
+    m_Position: {x: 336, y: 132, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
