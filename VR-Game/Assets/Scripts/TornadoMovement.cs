@@ -10,7 +10,7 @@ public class TornadoMovement : MonoBehaviour {
 	public float speed;
 	public NavMeshAgent nav;
 	public Vector3 target;
-	public static Vector3 tornadoPosition;
+	public static Vector3 tornadoPosition = new Vector3(100,0,100);
 
 	void Start () {
 		nav = gameObject.GetComponent<NavMeshAgent> ();
