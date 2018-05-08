@@ -44,7 +44,7 @@ As it will be an extension to Project 2, the core development tools being used w
 
 ***Week 3***
 - [x] Implement time-based scoring system (**Completed 5/7/2018**)
-- [ ] Establish functionality of new weather scenarios
+- [x] Establish functionality of new weather scenarios
 - [ ] Implement civilian demographic features
 
 ***
