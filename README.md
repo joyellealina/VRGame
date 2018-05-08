@@ -125,6 +125,7 @@ Finally, large improvements have been made to the civilian modeling and AI. The 
 - [Helicopter Model](https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496)
 - [Particle Twister](https://assetstore.unity.com/packages/tools/particle-twister-27488)
 - [UI Sound Effects](https://assetstore.unity.com/packages/audio/sound-fx/scifi-ui-sound-fx-27282)
+- [Toony Tiny People](https://assetstore.unity.com/packages/3d/characters/toony-tiny-people-demo-113188)
 
 ***
 
