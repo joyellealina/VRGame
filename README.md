@@ -24,7 +24,7 @@ For Project 3, we have expanded the scope of the original game by adding two add
   * [We Learned...](#we-learned-1)
   * [Biggest Issues](#biggest-issues)
   * [Contributors](#contributors-1)
-  * [Work Distribution](#work-distribution)
+  * [Work Distribution](#work-distribution-1)
   * [Screenshots](#screenshots-1)
   * [Timeline and Tasks](#timeline-and-tasks-1)
   * [External Model/Asset Sources](#external-modelasset-sources)
