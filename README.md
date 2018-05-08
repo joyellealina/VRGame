@@ -7,10 +7,10 @@ For Project 3, we have expanded the scope of the original game by adding two add
 ![](/Presentation/Project_3_Screenshot.png)
 
 ## Standalone Download
-[Link to download our game's standalone build](https://mega.nz/#!Kq4zhYAI!C5Cr6akVIUc6un2S3niOCqdJakh8KnpARj7xkJEdQNo)
+[Link to download our game's standalone build (Project 2 Version)](https://mega.nz/#!Kq4zhYAI!C5Cr6akVIUc6un2S3niOCqdJakh8KnpARj7xkJEdQNo)
 
 ## Video Demo
-[Link to our short video presentation](https://youtu.be/akuz5iDR_eI)
+[Link to our short video presentation (Project 2 Version)](https://youtu.be/akuz5iDR_eI)
 
 ## Project Report - Project 3
 
@@ -28,6 +28,28 @@ Project 3 will serve as an improved version of Project 2 with an expanded scope.
 This game is fit for VR implementation as it allows the user to dynamically experience the disaster scenario as it happens, as well as observe first-hand the effects of their gameplay decisions.
 
 As it will be an extension to Project 2, the core development tools being used will remain the same (these can be found below in the **Tools/Devices Used** section of our Project 2 Report). The game will work on Windows/Mac systems that have Oculus VR compatability.
+
+***
+
+With Project 3, we added two additional scenarios, simulating acid rain and a tornado in addition to the flooding scenario.
+
+![](/Presentation/Flood.png)
+
+In the acid rain scenario, the town has expanded their factories which resulted in greater polutants. In this game mode, the player is subject to gradual damage from the acid rain over time, slowly draining their resource points and restricting their rescue options.
+
+![](/Presentation/Acid%20Rain.png)
+
+In the tornado scenario, the town finds itself in a drought which has resulted in a more barren terrain and leaving the civilians exposed to harsher elements. In this game mode a tornado roams the play area, destroying any rescue units or civilians that comes across its path.
+
+![](/Presentation/Tornado.png)
+
+With these two new scenarios, additional rescue units have been added. These include two tiers of land-based rescue cars and a helicopter, featuring high mobility but low capacity.
+
+![](/Presentation/New%20Units.png)
+
+Finally, large improvements have been made to the civilian modeling and AI. The civilian rescue targets are now fully modeled as individual people that roam between set waypoints (the red spheres you see in the image below), and then seek safety once disaster strikes.
+
+![](/Presentation/Civilians.png)
 
 ### Timeline and Tasks
 
