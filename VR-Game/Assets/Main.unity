@@ -1790,7 +1790,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.33333334
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 281f81a53a9cc884bb947efabb9a44cb, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 532dfc722bf9b854c90434acce1e3680, type: 2}
 --- !u!23 &150973531
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5023,7 +5023,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 535632443}
   m_Enabled: 1
   m_AgentTypeID: -1372625422
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
@@ -6063,6 +6063,7 @@ MonoBehaviour:
   FloodWater: {fileID: 1874360198}
   SafeLocation: {fileID: 1215282777}
   RescueLocation: {fileID: 172785565}
+  timer: 0
 --- !u!1001 &685955155
 Prefab:
   m_ObjectHideFlags: 0
@@ -6779,6 +6780,7 @@ MonoBehaviour:
   FloodWater: {fileID: 1874360198}
   SafeLocation: {fileID: 1882986315}
   RescueLocation: {fileID: 205668615}
+  timer: 0
 --- !u!195 &760013924
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14405,9 +14407,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.06666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: b3394c2d094e55542a5008b9d6a5a9f1, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 8e9e6b4083b6ede4f856ab9679d01e58, type: 2}
 --- !u!1001 &1420607262
 Prefab:
   m_ObjectHideFlags: 0
@@ -19035,7 +19037,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1642105218}
   m_Enabled: 1
   m_AgentTypeID: -1372625422
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 4
   m_Acceleration: 8
   avoidancePriority: 50
@@ -20333,6 +20335,7 @@ MonoBehaviour:
   FloodWater: {fileID: 1874360198}
   SafeLocation: {fileID: 740319128}
   RescueLocation: {fileID: 1489155720}
+  timer: 0
 --- !u!195 &1770897637
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -21845,6 +21848,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bab4f53fb5fc0634ea0c742bf2743d89, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1970799972 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: bab4f53fb5fc0634ea0c742bf2743d89, type: 3}
+  m_PrefabInternal: {fileID: 1970799971}
+--- !u!114 &1970799973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970799972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: f2652fae
 --- !u!1 &1972230240
 GameObject:
   m_ObjectHideFlags: 0
@@ -21904,7 +21926,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1972230240}
   m_Enabled: 1
   m_AgentTypeID: -1372625422
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
