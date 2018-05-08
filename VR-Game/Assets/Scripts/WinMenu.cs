@@ -17,6 +17,7 @@ public class WinMenu : MonoBehaviour {
 
 		if (BoatMovement.win == true) {
 			BoatMovement.win = false;	// Resets win condition
+			ActivateAcidRain.acidRain = false;	// Resets acid rain state
 			winTime.text = (gameTimer).ToString ("0.0"); // Display time
 			StreamWriter writer = new StreamWriter("Assets/Scores.txt", append: true);
 			writer.WriteLine (winTime.text);
