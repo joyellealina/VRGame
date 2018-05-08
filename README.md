@@ -32,6 +32,8 @@ For Project 3, we have expanded the scope of the original game by adding two add
 ## Standalone Download
 [Link to download our game's standalone build (Project 2 Version)](https://mega.nz/#!Kq4zhYAI!C5Cr6akVIUc6un2S3niOCqdJakh8KnpARj7xkJEdQNo)
 
+[Link to download our game's project directory (Project 3 Version)](https://mega.nz/#!3r41kRLL!PxfhlIuDmb4MSGWdiSkbaEp8ufEc0NmWiTaB980B3xU)
+
 ## Video Demo
 [Link to our short video presentation (Project 2 Version)](https://youtu.be/akuz5iDR_eI)
 
