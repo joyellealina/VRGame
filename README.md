@@ -27,7 +27,33 @@ Project 3 will serve as an improved version of Project 2 with an expanded scope.
 
 This game is fit for VR implementation as it allows the user to dynamically experience the disaster scenario as it happens, as well as observe first-hand the effects of their gameplay decisions.
 
-As it will be an extension to Project 2, the core development tools being used will remain the same (these can be found below in the **Tools/Devices Used** section of our Project 2 Report). The game will work on Windows/Mac systems that have Oculus VR compatability.
+### Tools/Devices Used
+- [Unity](https://unity3d.com/)
+- [Github Desktop](https://desktop.github.com/)
+- [VSCode](https://code.visualstudio.com/) 
+- [Oculus Rift & Touch Controllers](https://www.oculus.com/rift/)
+- [Unity Oculus SDK](https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/)
+
+### We learned...
+- How to collaborate as a team on a larger project
+- How to use more advanced Unity features
+- Advanced C# scripting
+- How to integrate VR controls
+- Basic AI Implementation
+
+### Contributors
+  - [Joyelle Woodson](https://github.com/joyellealina)
+  - [Derek Fritz](https://github.com/defritz)
+  
+### Work Distribution
+***Note: For original responsibilities for the Project 2 groundwork, find the Work Distribution section under the Project 2 Report***
+  - Joyelle Woodson:
+    * Expanding functionality of nav-meshes
+    * Design and implementation of civilian modeling and AI
+  - Derek Fritz:
+    * Design and modeling of acid rain & tornado scenarios
+    * Expansion of UI features (options, game modes, scores)
+    * Implementation of scoring system
 
 ***
 
@@ -35,7 +61,7 @@ With Project 3, we added two additional scenarios, simulating acid rain and a to
 
 ![](/Presentation/Flood.png)
 
-In the acid rain scenario, the town has expanded their factories which resulted in greater polutants. In this game mode, the player is subject to gradual damage from the acid rain over time, slowly draining their resource points and restricting their rescue options.
+In the acid rain scenario, the town has expanded their factories which resulted in greater pollutants. In this game mode, the player is subject to gradual damage from the acid rain over time, slowly draining their resource points and restricting their rescue options.
 
 ![](/Presentation/Acid%20Rain.png)
 
@@ -47,7 +73,7 @@ With these two new scenarios, additional rescue units have been added. These inc
 
 ![](/Presentation/New%20Units.png)
 
-Finally, large improvements have been made to the civilian modeling and AI. The civilian rescue targets are now fully modeled as individual people that roam between set waypoints (the red spheres you see in the image below), and then seek safety once disaster strikes.
+Finally, large improvements have been made to the civilian modeling and AI. The civilian rescue targets are now fully modeled as individual people. These civilians roam between set waypoints (the red spheres you see in the image below), and then seek safety once disaster strikes.
 
 ![](/Presentation/Civilians.png)
 
@@ -69,6 +95,13 @@ Finally, large improvements have been made to the civilian modeling and AI. The 
 - [x] Establish functionality of new weather scenarios
 - [ ] Implement civilian demographic features
 
+ ### External Model/Asset Sources (In Addition to Project 2 Assets)
+- [Car Models](https://assetstore.unity.com/packages/3d/vehicles/land/military-suvs-body-color-customizable-100132)
+- [Helicopter Model](https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496)
+- [Particle Twister](https://assetstore.unity.com/packages/tools/particle-twister-27488)
+- [UI Sound Effects](https://assetstore.unity.com/packages/audio/sound-fx/scifi-ui-sound-fx-27282)
+
+***
 ***
 
 ## Project Report - Project 2
@@ -200,3 +233,7 @@ And carry on with their mission after retrieving them.
 - [Sci-Fi Texture Pack](https://assetstore.unity.com/packages/2d/textures-materials/sci-fi-texture-pack-1-23301)
 - [Text Mesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126?aid=1101lPGj&utm_source=aff)
 - [NavMesh Components](https://github.com/Unity-Technologies/NavMeshComponents)
+- [Car Models](https://assetstore.unity.com/packages/3d/vehicles/land/military-suvs-body-color-customizable-100132)
+- [Helicopter Model](https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496)
+- [Particle Twister](https://assetstore.unity.com/packages/tools/particle-twister-27488)
+- [UI Sound Effects](https://assetstore.unity.com/packages/audio/sound-fx/scifi-ui-sound-fx-27282)
