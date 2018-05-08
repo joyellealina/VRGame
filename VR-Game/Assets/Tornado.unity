@@ -5799,7 +5799,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 858787447}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
@@ -6656,7 +6656,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.033333335
   m_BuildHeightMesh: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1001 &950655246
@@ -6910,6 +6910,7 @@ MonoBehaviour:
   FloodWater: {fileID: 0}
   SafeLocation: {fileID: 1708950685}
   RescueLocation: {fileID: 1205385097}
+  timer: 0
 --- !u!195 &976555425
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11245,7 +11246,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1117497370}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -25751,7 +25752,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.033333335
   m_BuildHeightMesh: 0
   m_NavMeshData: {fileID: 23800000, guid: c0e4fe5b36ecfff49bf8049b3fb0bb1b, type: 2}
 --- !u!4 &2116507649 stripped

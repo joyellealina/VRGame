@@ -2928,7 +2928,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 350223211}
   m_Enabled: 1
   m_AgentTypeID: -1923039037
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
@@ -5661,7 +5661,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.033333335
   m_BuildHeightMesh: 0
   m_NavMeshData: {fileID: 23800000, guid: af0e3049c0ea68747b2b961ebdd2df20, type: 2}
 --- !u!1001 &685955155
@@ -8258,6 +8258,7 @@ MonoBehaviour:
   FloodWater: {fileID: 0}
   SafeLocation: {fileID: 952996835}
   RescueLocation: {fileID: 1498804744}
+  timer: 0
 --- !u!1 &1062713483 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 160098, guid: 69b40ef7ee16c834c844b3fa26e0fdda, type: 2}
@@ -19383,7 +19384,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1445373091}
   m_Enabled: 1
   m_AgentTypeID: -1923039037
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -25874,6 +25875,7 @@ MonoBehaviour:
   FloodWater: {fileID: 0}
   SafeLocation: {fileID: 689571950}
   RescueLocation: {fileID: 1012850436}
+  timer: 0
 --- !u!195 &1904701514
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -26115,6 +26117,7 @@ MonoBehaviour:
   FloodWater: {fileID: 0}
   SafeLocation: {fileID: 911263587}
   RescueLocation: {fileID: 1589690541}
+  timer: 0
 --- !u!4 &1926234853 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 4bd170f19c37d0b48a85f1f2f24866f0, type: 3}
