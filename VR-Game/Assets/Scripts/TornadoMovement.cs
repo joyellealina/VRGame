@@ -14,11 +14,11 @@ public class TornadoMovement : MonoBehaviour {
 
 	void Start () {
 		nav = gameObject.GetComponent<NavMeshAgent> ();
-		createNewTarget ();
+		//createNewTarget ();
 
 		//Enable for testing, sets tornado's first target to a civilian location
-		//target = new Vector3 (-10, gameObject.transform.position.y, -37);
-		//nav.SetDestination (target);
+		target = new Vector3 (-10, gameObject.transform.position.y, -37);
+		nav.SetDestination (target);
 	}
 
 	void Update () {

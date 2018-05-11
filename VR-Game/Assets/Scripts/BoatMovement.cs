@@ -15,6 +15,8 @@ public class BoatMovement : MonoBehaviour {
     private int i = 0;
 	public static int score = 1;
 	public static bool win = false;
+	public static int workers;
+	public static int researchers;
 
     public void Start()
 	{
@@ -37,7 +39,8 @@ public class BoatMovement : MonoBehaviour {
         {
             _navMeshAgent.destination = targets[i].transform.position;
         }
-
+		Debug.Log ("# of workers: " + workers);
+		Debug.Log ("# of researchers: " + researchers);
     }
 
     private void Update()
@@ -51,7 +54,18 @@ public class BoatMovement : MonoBehaviour {
             //Destroy(targets[i]);
             i++;
             currentCapacity++;
-			score++;
+
+			int trait = Random.Range (1, 3);
+			if (trait == 1 && workers != 0) {
+				Debug.Log ("Worker rescued, double resources acquired");
+				score += 2;
+			}
+			if (trait == 2 && researchers != 0) {
+				Debug.Log ("Researcher rescued, unit speed increased");
+				_navMeshAgent.speed++;
+				score++;
+			}
+			//score++;
             
             // If there are still people to rescue and the boat has not reached max capacity
             if (i < size && currentCapacity != maxCapacity)
@@ -62,20 +76,22 @@ public class BoatMovement : MonoBehaviour {
             if (i == size || currentCapacity == maxCapacity)
             {
                 _navMeshAgent.destination = SpawnPoint.position;
-				if (Vector3.Distance(gameObject.transform.position, SpawnPoint.transform.position) < 20)
+				if (Vector3.Distance(gameObject.transform.position, SpawnPoint.transform.position) < 10)
                 {
-					Debug.Log ("Win Conditions have been met");
-					win = true;
+					Debug.Log ("Unit has returned to base");
+					gameObject.SetActive(false);
                     Destroy(gameObject);
                 }
             }
         }
 		if (i == size) {
+			Debug.Log ("Win Conditions have been met");
 			win = true;
 		}
 		// Rescue units are destroyed when running into the tornado
 		if (Vector3.Distance (gameObject.transform.position, TornadoMovement.tornadoPosition) < 10) {
 			Debug.Log ("Rescue unit destroyed");
+			gameObject.SetActive(false);
 			Destroy (gameObject);
 		}
     }

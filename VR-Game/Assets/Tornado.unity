@@ -8353,6 +8353,7 @@ GameObject:
   - component: {fileID: 1068211974}
   - component: {fileID: 1068211973}
   - component: {fileID: 1068211976}
+  - component: {fileID: 1068211977}
   m_Layer: 5
   m_Name: Rain
   m_TagString: Untagged
@@ -8542,6 +8543,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: 53c203a356407fc438f70849d5b3a653, type: 3}
+--- !u!114 &1068211977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068211971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558353b3154655d468281d49a77e9a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 553358cd0ea4b5e4096ce34052b945b9, type: 3}
 --- !u!1 &1078502859
 GameObject:
   m_ObjectHideFlags: 0

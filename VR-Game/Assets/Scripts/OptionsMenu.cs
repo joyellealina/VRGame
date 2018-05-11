@@ -18,5 +18,8 @@ public class OptionsMenu : MonoBehaviour {
 		inverseSliderValue1.text = (100 - slider1.value * 100).ToString ("0");
 		sliderValue2.text = (slider2.value * 100).ToString ("0");
 		inverseSliderValue2.text = (100 - slider2.value * 100).ToString ("0");
+
+		BoatMovement.workers = (int)(5 * slider2.value);
+		BoatMovement.researchers = 5 - BoatMovement.workers;
 	}
 }

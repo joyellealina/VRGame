@@ -37,7 +37,9 @@ public class ToSafety : MonoBehaviour
 		// Civilians are destroyed when running into the tornado
 		if (Vector3.Distance (gameObject.transform.position, TornadoMovement.tornadoPosition) < 10) {
 			Debug.Log ("Civilian has died");
-			Destroy (transform.parent.gameObject);
+			//transform.parent.gameObject.SetActive(false);
+			gameObject.SetActive (false);
+			//Destroy (transform.parent.gameObject);
 			Destroy (gameObject);
 		}
 		// Player loses a resource point every ten seconds during acid rain
