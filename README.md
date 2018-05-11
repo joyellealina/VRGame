@@ -82,7 +82,7 @@ This game is fit for VR implementation as it allows the user to dynamically expe
   - Derek Fritz:
     * Design and modeling of acid rain & tornado scenarios
     * Expansion of UI features (options, game modes, scores)
-    * Implementation of scoring system
+    * Implementation of scoring system and demographic functionality
 
 ***
 
