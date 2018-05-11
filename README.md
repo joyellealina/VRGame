@@ -6,8 +6,33 @@ For Project 3, we have expanded the scope of the original game by adding two add
 
 ![](/Presentation/Project_3_Screenshot.png)
 
+## Table of Contents
+* [Standalone Download](#standalone-download)
+* [Video Demo](#video-demo)
+* [Project Report 3](#project-report---project-3)
+  * [Project 3 Proposal](#project-3-proposal)
+  * [Tools/Devices Used](#toolsdevices-used)
+  * [We Learned...](#we-learned-1)
+  * [Contributors](#contributors-1)
+  * [Work Distribution](#work-distribution)
+  * [Screenshots](#screenshots)
+  * [Timeline and Tasks](#timeline-and-tasks)
+  * [External Model/Asset Sources](#external-modelasset-sources-in-addition-to-project-2-assets)
+* [Project Report 2](#project-report---project-2)
+  * [Project Planning](#project-planning)
+  * [Tools/Device Used](#toolsdevices-used-1)
+  * [We Learned...](#we-learned-1)
+  * [Biggest Issues](#biggest-issues)
+  * [Contributors](#contributors-1)
+  * [Work Distribution](#work-distribution-1)
+  * [Screenshots](#screenshots-1)
+  * [Timeline and Tasks](#timeline-and-tasks-1)
+  * [External Model/Asset Sources](#external-modelasset-sources)
+
 ## Standalone Download
 [Link to download our game's standalone build (Project 2 Version)](https://mega.nz/#!Kq4zhYAI!C5Cr6akVIUc6un2S3niOCqdJakh8KnpARj7xkJEdQNo)
+
+[Link to download our game's project directory (Project 3 Version)](https://mega.nz/#!3r41kRLL!PxfhlIuDmb4MSGWdiSkbaEp8ufEc0NmWiTaB980B3xU)
 
 ## Video Demo
 [Link to our short video presentation (Project 2 Version)](https://youtu.be/akuz5iDR_eI)
@@ -57,6 +82,8 @@ This game is fit for VR implementation as it allows the user to dynamically expe
 
 ***
 
+### Screenshots
+
 With Project 3, we added two additional scenarios, simulating acid rain and a tornado in addition to the flooding scenario.
 
 ![](/Presentation/Flood.png)
@@ -100,8 +127,8 @@ Finally, large improvements have been made to the civilian modeling and AI. The 
 - [Helicopter Model](https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496)
 - [Particle Twister](https://assetstore.unity.com/packages/tools/particle-twister-27488)
 - [UI Sound Effects](https://assetstore.unity.com/packages/audio/sound-fx/scifi-ui-sound-fx-27282)
+- [Toony Tiny People](https://assetstore.unity.com/packages/3d/characters/toony-tiny-people-demo-113188)
 
-***
 ***
 
 ## Project Report - Project 2
@@ -160,6 +187,9 @@ Whe importing one of our assets, we did not realize that it contained a file tha
     * VR / Touch Controller Functionality
     * Initial Resource Functionality
 ***
+
+### Screenshots
+
 ***NOTE: The images below are from a slightly older version of the game that lack certain aesthetic improvements. However, the functionalities demonstrated remain the same.***
 
 Here is a look at our player UI, which is anchored to the player's left touch controller. This allows them to look at and interact with the game menu dynamically. The "Begin Operation" button activates the rainfall and initiates the flooding. The three "Build" buttons allow the user to create rescue boat units in exchange for resources, which is represented by the gold bar at the bottom. Resources are obtained as the rescue units succesfully retrieve civilians.
