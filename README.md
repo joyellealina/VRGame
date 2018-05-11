@@ -34,8 +34,13 @@ For Project 3, we have expanded the scope of the original game by adding two add
 
 [Link to download our game's project directory (Project 3 Version)](https://mega.nz/#!3r41kRLL!PxfhlIuDmb4MSGWdiSkbaEp8ufEc0NmWiTaB980B3xU)
 
+[Link to download our game's standalone build (Project 3 Version)]
+(https://mega.nz/#!r7xEnJYK!OPF4k1-n7LlsUPJ1IJc6DlHSqKWYxNY_S6dmPlfuE_4)
+
 ## Video Demo
 [Link to our short video presentation (Project 2 Version)](https://youtu.be/akuz5iDR_eI)
+
+[Link to our short video presentation (Project 3 Version)](https://youtu.be/wjjH2ZxyN8A)
 
 ## Project Report - Project 3
 
@@ -120,7 +125,7 @@ Finally, large improvements have been made to the civilian modeling and AI. The 
 ***Week 3***
 - [x] Implement time-based scoring system (**Completed 5/7/2018**)
 - [x] Establish functionality of new weather scenarios
-- [ ] Implement civilian demographic features
+- [x] Implement civilian demographic features
 
  ### External Model/Asset Sources (In Addition to Project 2 Assets)
 - [Car Models](https://assetstore.unity.com/packages/3d/vehicles/land/military-suvs-body-color-customizable-100132)
